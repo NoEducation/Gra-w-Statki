@@ -1,0 +1,3 @@
+﻿  GraWStatkiClean.cpp
+C:\Users\CEM\Desktop\Czas Apokalipsy C++\Programy na zajecia\GraWStatkiClean\GraWStatkiClean\GraWStatkiClean.cpp(254): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  GraWStatkiClean.vcxproj -> C:\Users\CEM\Desktop\Czas Apokalipsy C++\Programy na zajecia\GraWStatkiClean\x64\Debug\GraWStatkiClean.exe

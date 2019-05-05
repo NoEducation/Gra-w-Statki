@@ -259,7 +259,7 @@ int main() {
 	string  namePlayerX,
 		namePlayerY;
 
-	/// inicializacja obszaru gry losowymi statkami dla obydwo graczy
+	/// inicializacja obszaru gry losowymi statkami dla obydwu graczy
 	do {
 		numberOfShipsPlayerX = initlizeBoard(boardGamePlayerX);
 		numberOfShipsPlayerY = initlizeBoard(boardGamePlayerY);
@@ -320,7 +320,7 @@ int main() {
 			int area = inputWithValidation(postionsSelectedByY);
 
 			postionsSelectedByY[area] = 'X';
-			if (boardGamePlayerY[area] == 'X') {
+			if (boardGamePlayerX[area] == 'X') {
 				numberOfShipsPlayerX--;
 				if (numberOfShipsPlayerX == 0) {
 					_gameEnd = true; 
